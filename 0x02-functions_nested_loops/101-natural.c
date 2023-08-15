@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - computes and prints the sum of all the multiples
- * of 3 or 5 below 1024
+ * main - Calculates and displays the sum of all the multiples.
+ * that are divisible by 3 or 5 and are below 1024.
  * Return: Always 0 (Success)
  */
 int main(void)
