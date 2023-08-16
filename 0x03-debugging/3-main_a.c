@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* main - takes a date and prints how many days are left in the year, taking
-* leap years into account
+* main -  Accepts a date as input and prints the remaining days in the year
+* leap-years-into-account
 * Return: 0
 */
 
