@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* convert_day - converts day of month to day of year, without accounting
+* convert_day - convertDayToYear
 * for leap year
-* @month: month in number format
-* @day: day of month
-* Return: day of year
+* @month: Month in numerical format
+* @day: Day of the month
+* Return: Day of the year
 */
 
 int convert_day(int month, int day)
