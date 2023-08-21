@@ -1,32 +1,21 @@
-# 0x05. C - Pointers, arrays and strings
-![image](https://user-images.githubusercontent.com/105258746/190977571-d5135d31-02a5-4ff3-88de-d9062d6cfe13.png)
+The header file named main.h contains the declarations of all the functions used in this project.
 
-### A pointer is a variable that stores the memory address of another variable as its value. A pointer variable points to a data type (like int) of the same type, and is `created with the * operator`.
+Within the file named 0-reset_to_98.c, there exists a function which accepts a pointer to an integer as an argument and modifies the value it references to become 98.
 
-- File: `main.h` is the header file containing all the function prototypes used in this project.
+The content of the file named 1-swap.c pertains to a function designed for interchanging the values of two integer variables.
 
-- File: `0-reset_to_98.c` is a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+The file called 2-strlen.c contains a function that calculates and returns the length of a given string.
 
-- File: `1-swap.c` is a function that swaps the values of two integers.
+In the file named 3-puts.c, you can find a function intended to display a string on the standard output, followed by a new line character.
 
-- File: `2-strlen.c` is a function that returns the length of a string.
+The contents of the file labeled 4-print_rev.c consist of a function used to print a string in reverse order, followed by a newline character.
 
-- File: `3-puts.c` is a function that prints a string, followed by a new line, to stdout.
+The file named 5-rev_string.c contains a function specialized in reversing strings.
 
-- File: `4-print_rev.c` is a function that prints a string, in reverse, followed by a new line.
+Within the file 6-puts2.c, you'll find a function designed to print every second character of a string, followed by a new line.
 
-- File: `5-rev_string.c` is a function that reverses a string.
+The file 7-puts_half.c accommodates a function that outputs the second half of a string, followed by a newline character.
 
-- File: `6-puts2.c` is a function that prints one char out of 2 of a string, followed by a new line.
+Contained in the file 8-print_array.c is a function responsible for printing a specified number of elements from an integer array, followed by a newline.
 
-- File: `7-puts_half.c` is a function that prints half of a string, followed by a new line.
-
-- File: `8-print_array.c` is a function that prints n elements of an array of integers, followed by a new line.
-
-- File: `9-strcpy.c` is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
-
-- File: `100-atoi.c` is a function that convert a string to an integer.
-
-- File: `101-keygen.c` is a program that generates random valid passwords for the program 101-crackme.
-
-- File: `_putchar.c` contains the _putchar() function definition.
+Inside the file 9-strcpy.c is a function created to duplicate the string pointed to by the source (src) along with the terminating null byte (\0), and store it within the destination (dest) buffer.
