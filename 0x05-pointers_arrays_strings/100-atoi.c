@@ -4,7 +4,7 @@
  * _atoi - convertshygdfgdfg
  * @s: string to be convertedc
  *
- * Return: the int converted from the string
+ * Return: the int converted xfrom the stringc
  */
 int _atoi(char *s)
 {
