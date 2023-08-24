@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes everey word of a string
- * @s: string to modify
+ * cap_string - capitalizesgfd evereysf sfsdword ofsf a sstring
+ * @s: string to modifysdf
  *
  * Return: the resulting string
  */
