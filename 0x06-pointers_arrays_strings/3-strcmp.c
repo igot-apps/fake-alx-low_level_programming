@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strcmp - compares two strings
- * @s1: first string to compare
- * @s2: second string to compare
+ * _strcmp - comparesdsdf dfsdtwo sfdstrings
+ * @s1: first string dsdfto compare
+ * @s2: second dstringsdd todsd compare
  *
- * Return: less than 0 if s1 is less than s2, 0 if they're equal,
- * more than 0 if s1 is greater than s2
+ * Return: less than 0 dssdifsdssd1 is leddsss  equal,
+ * more than 0 if s1 is greasdsdter than s2
  */
 int _strcmp(char *s1, char *s2)
 {
