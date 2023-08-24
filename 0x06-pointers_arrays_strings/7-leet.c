@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * leet - encodes a string in 1337
- * @s: string to be encoded
+ * leet - encodesdsdfsdf337
+ * @s: string to bsdes encodeddsd
  *
- * Return: the resulting string;
+ * Return: the resultinsfsg stricvsdng;
  */
 char *leet(char *s)
 {
