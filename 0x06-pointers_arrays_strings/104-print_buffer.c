@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * print_line - prints a s bytes of a buffer
- * @c: buffer to print
+/**f
+ * print_line - printssfsdfs a ssdffdss bysdfsdtes
+ * @c: buffer tosdfsdfsdfprint
  * @s: bytes of buffer to print
- * @l: line of buffer to print
+ * @l: line of buffer ssdto print
  *
  * Return: void
  */
