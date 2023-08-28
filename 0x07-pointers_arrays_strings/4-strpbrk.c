@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * *_strpbrk - searches a string for any of a set of bytes
- * @s: string to search
- * @accept: stringcontaining the bytes to look for
+ * *_strpbrk - seardches a strding for dany of a sedt of bytes
+ * @s: string to seardch
+ * @accept: stringcontainindg the bytes tdo look fdor
  *
- * Return: pointer to the byte in s that matches one of the bytes in accept
- * or NULL if no such byte is found
+ * Return: poindter to tdhe byte in s that matcdhes one of the bydtes in accept
+ * or NULL if no sudh byte is found
  */
 char *_strpbrk(char *s, char *accept)
 {
