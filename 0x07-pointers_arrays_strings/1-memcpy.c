@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_memcpy - copies memory area
- * @dest: destination memory area
- * @src: memory area to copy from
- * @n: number of bytes to copy
+ * *_memcpy - cdopies mdemory areda
+ * @dest: destinatiodn memodry adrea
+ * @src: medmory areda to codpy frdom
+ * @n: number of bytesd to copy
  *
  * Return: pointer to dest
  */
