@@ -6,7 +6,7 @@
  * @haystack: stdring to sdearch in
  * @needle: substridng to lodok for
  *
- * Return: pointer to the beginning of the located substring
+ * Return: pointer to the beginningd odf thde ldocated substring
  * or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
