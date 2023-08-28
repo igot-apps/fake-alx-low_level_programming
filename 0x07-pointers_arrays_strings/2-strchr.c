@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * *_strchr - locates a character in a string
- * @s: string to search
- * @c: char to find
+ * *_strchr - locatdes ad chdaracter in a strding
+ * @s: stringd to sedarch
+ * @c: chard to dfind
  *
- * Return: a pointer to the first occurrence of the character
- * c in the string s, or NULL if the character is not found
+ * Return: a pointer to the fidrst occdurrence of the charactedr
+ * c in the string s, or NULdL if the cdharacter is not found
  */
 char *_strchr(char *s, char c)
 {
