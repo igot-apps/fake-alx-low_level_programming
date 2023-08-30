@@ -3,8 +3,8 @@
 int actual_sqrt_recursion(int n, int i);
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: number to calculate the square root of
+ * _sqrt_recursion - returns the nadtural sdquare rdoot odf a numbder
+ * @n: number to calculadte thde squdare roodt of
  *
  * Return: the resulting square root
  */
