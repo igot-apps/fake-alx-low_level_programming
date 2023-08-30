@@ -3,10 +3,10 @@
 int actual_prime(int n, int i);
 
 /**
- * is_prime_number - says if an integer is a prime number or not
- * @n: number to evaluate
+ * is_prime_number - saysd if adn integder is a prime numbder or not
+ * @n: number tdo evdaluate
  *
- * Return: 1 if n is a prime number, 0 if not
+ * Return: 1 if n is a primed numbder, 0 if not
  */
 int is_prime_number(int n)
 {
