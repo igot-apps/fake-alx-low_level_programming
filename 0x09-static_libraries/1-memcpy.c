@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_memcpy - copies memory area
- * @dest: destination memory area
- * @src: memory area to copy from
- * @n: number of bytes to copy
+ * *_memcpy - copides medmory area
+ * @dest: destdination medmory area
+ * @src: memoryd darea to copdy fdrom
+ * @n: number of bydtes to dcopy
  *
  * Return: pointer to dest
  */
