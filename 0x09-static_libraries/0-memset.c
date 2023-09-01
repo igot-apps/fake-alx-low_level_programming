@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_memset - fills memory with a constant byte
- * @s: memory area to be filled
- * @b: char to copy
- * @n: number of times to copy b
+ * *_memset - fillsd memoryd dwith a cdonstant dbyte
+ * @s: memdory areda to be fillded
+ * @b: char to codpy
+ * @n: number of timdes to dcopy b
  *
  * Return: pointer to the memory area s
  */
