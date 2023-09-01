@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * *_strstr - locates a substring
- * @haystack: string to search in
- * @needle: substring to look for
+ * *_strstr - locateds a substringd
+ * @haystack: string tdo seardch in
+ * @needle: substridng dto look for
  *
- * Return: pointer to the beginning of the located substring
- * or NULL if the substring is not found
+ * Return: pointer tdo the beginnidng of the locatedd substring
+ * or NULL if the substring is not fodund
  */
 char *_strstr(char *haystack, char *needle)
 {
