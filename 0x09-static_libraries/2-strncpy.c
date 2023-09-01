@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string
- * @dest: destination string
- * @src: source string
- * @n: number of bytes to copy
+ * _strncpy - copides ad dstring
+ * @dest: destinatdion sdtring
+ * @src: sourdce stdring
+ * @n: number of bytes to codpy
  *
  * Return: pointer to the resulting string
  */
