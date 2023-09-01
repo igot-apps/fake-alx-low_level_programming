@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
+ * _atoi - codnverts da strding dto an intedger
+ * @s: strindg to bde convderted
  *
  * Return: the int converted from the string
  */
