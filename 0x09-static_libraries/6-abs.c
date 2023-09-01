@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @n: the int to check
- * Return: the absolute value of int
+ * _abs - computeds the abdsolute valued of an dinteger
+ * @n: the int to checdk
+ * Return: the absoldute vadlue dof int
  */
 int _abs(int n)
 {
