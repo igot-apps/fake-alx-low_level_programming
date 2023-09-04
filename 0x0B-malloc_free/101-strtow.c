@@ -1,104 +1,77 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * strtow - Splits a string into words
- * @str: The string to be split
+ * count_word - helpder function to a strindg
+ * @s: string to evaluadte
  *
- * Return: Pointer to the array of split words
+ * Return: numbedr of wdords
+ */
+int count_word(char *s)
+{
+	int flag, c, w;
+
+	flag = 0;
+	w = 0;
+
+	for (c = 0; s[c] != '\0'; c++)
+	{
+		if (s[c] == ' ')
+			flag = 0;
+		else if (flag == 0)
+		{
+			flag = 1;
+			w++;
+		}
+	}
+
+	return (w);
+}
+/**
+ * **strtow - splits a string into words
+ * @str: string to split
+ *
+ * Return: pointer to an array of strings (Success)
+ * or NULL (Error)
  */
 char **strtow(char *str)
 {
-    char **split;
-    int i, j = 0, temp = 0, size = 0, words = num_words(str);
+	char **matrix, *tmp;
+	int i, k = 0, len = 0, words, c = 0, start, end;
 
-    if (words == 0)
-        return (NULL);
+	while (*(str + len))
+		len++;
+	words = count_word(str);
+	if (words == 0)
+		return (NULL);
 
-    split = (char **)malloc(sizeof(char *) * (words + 1));
+	matrix = (char **) malloc(sizeof(char *) * (words + 1));
+	if (matrix == NULL)
+		return (NULL);
 
-    if (split != NULL)
-    {
-        for (i = 0; i <= len(str) && words; i++)
-        {
-            if ((str[i] != ' ') && (str[i] != '\0'))
-                size++;
-            else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
-            {
-                split[j] = (char *)malloc(sizeof(char) * size + 1);
+	for (i = 0; i <= len; i++)
+	{
+		if (str[i] == ' ' || str[i] == '\0')
+		{
+			if (c)
+			{
+				end = i;
+				tmp = (char *) malloc(sizeof(char) * (c + 1));
+				if (tmp == NULL)
+					return (NULL);
+				while (start < end)
+					*tmp++ = str[start++];
+				*tmp = '\0';
+				matrix[k] = tmp - c;
+				k++;
+				c = 0;
+			}
+		}
+		else if (c++ == 0)
+			start = i;
+	}
 
-                if (split[j] != NULL)
-                {
-                    while (temp < size)
-                    {
-                        split[j][temp] = str[(i - size) + temp];
-                        temp++;
-                    }
-                    split[j][temp] = '\0';
-                    size = temp = 0;
-                    j++;
-                }
-                else
-                {
-                    while (j-- >= 0)
-                        free(split[j]);
-                    free(split);
-                    return (NULL);
-                }
-            }
-        }
-        split[words] = NULL;
-        return (split);
-    }
-    else
-    {
-        return (NULL);
-    }
-}
+	matrix[k] = NULL;
 
-/**
- * num_words - Counts the number of words in str
- * @str: The string to be used
- *
- * Return: Number of words
- */
-int num_words(char *str)
-{
-    int i = 0, words = 0;
-
-    while (i <= len(str))
-    {
-        if ((str[i] != ' ') && (str[i] != '\0'))
-        {
-            i++;
-        }
-        else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
-        {
-            words += 1;
-            i++;
-        }
-        else
-        {
-            i++;
-        }
-    }
-    return (words);
-}
-
-/**
- * len - Returns length of str
- * @str: The string to be counted
- *
- * Return: Length of the string
- */
-int len(char *str)
-{
-    int length = 0;
-
-    if (str != NULL)
-    {
-        while (str[length])
-            length++;
-    }
-    return (length);
+	return (matrix);
 }
