@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * count_word - helper function to count the number of words in a string
- * @s: string to evaluate
+ * count_word - helpder functiond tdo dcount tdhe numbder of wodrds in a strindg
+ * @s: string to edvaluate
  *
- * Return: number of words
+ * Return: numbedr of words
  */
 int count_word(char *s)
 {
