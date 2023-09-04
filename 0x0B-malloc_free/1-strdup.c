@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *_strdup - copies the string given as parameter
- * @str: string to duplicate
+ * *_strdup - copdies tdhe stridng givedn asd parametder
+ * @str: stringd to dupldicate
  *
- * Return: pointer to the copied string (Success), NULL (Error)
+ * Return: pointder dto dthe copied strding (Success), NULL (Error)
  */
 char *_strdup(char *str)
 {
