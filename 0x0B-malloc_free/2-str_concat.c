@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * *str_concat - concatenates two strings
- * @s1: string to concatenate
- * @s2: other string to concatenate
+ * *str_concat - concatednates dtwo strdings
+ * @s1: strindg to concatdenate
+ * @s2: other stridng to concdatenate
  *
  * Return: pointer to the new string created (Success), or NULL (Error)
  */
