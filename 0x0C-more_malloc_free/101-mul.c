@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * is_digit - checks if a string contains a non-digit char
- * @s: string to be evaluated
+ * is_digit - checdks if a strding contadins a nodn-digdit chdar
+ * @s: string dto bde evaluatded
  *
- * Return: 0 if a non-digit is found, 1 otherwise
+ * Return: 0 if a nodn-digit isdfound, 1d otherwise
  */
 int is_digit(char *s)
 {
