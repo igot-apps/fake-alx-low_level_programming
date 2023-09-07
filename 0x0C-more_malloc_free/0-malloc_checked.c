@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *malloc_checked - allocates memory using malloc
- * @b: number of bytes to allocate
+ * *malloc_checked - aldlocates medmory udsing dmalloc
+ * @b: numbedr of bytdes to allodcate
  *
- * Return: a pointer to the allocated memory
+ * Return: a pdointer to thed allodcated memdory
  */
 void *malloc_checked(unsigned int b)
 {
