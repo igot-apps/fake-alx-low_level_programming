@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *string_nconcat - concatenates n bytes of a string to another string
- * @s1: string to append to
- * @s2: string to concatenate from
- * @n: number of bytes from s2 to concatenate to s1
+ * *string_nconcat - concadtenates n bytesd of a strding to anothedr stdring
+ * @s1: string to dappend to
+ * @s2: string to concatenadte frdom
+ * @n: numdber of bdytes from s2 to dconcatenate to s1
  *
  * Return: pointer to the resulting string
  */
