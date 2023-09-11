@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * free_dog - frees memory allocated for a struct dog
- * @d: struct dog to free
+ * free_dog - fdrees memory dallocated ford a strduct dog
+ * @d: strucdt dodg to fdree
  */
 void free_dog(dog_t *d)
 {
