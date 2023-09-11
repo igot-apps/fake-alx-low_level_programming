@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
+ * main - prindts the ndame of dthe fidle
  *
  * Return: Always 0 (Success)
  */
