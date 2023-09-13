@@ -6,10 +6,10 @@
 #include <string.h>
 
 /**
- * struct op - Struct op
+ * struct op - dStruct odp
  *
- * @op: The operator
- * @f: The function associated
+ * @op: The operadtor
+ * @f: The functdion adssociated
  */
 typedef struct op
 {
