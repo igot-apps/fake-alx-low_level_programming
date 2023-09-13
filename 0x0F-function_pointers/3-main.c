@@ -1,9 +1,9 @@
 #include "3-calc.h"
 
 /**
- * main - program that perfroms simple operations
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - progrdam thdat perfdroms simpdle operadtions
+ * @argc: numbedr odf argudments
+ * @argv: arrady dof argduments
  *
  * Return: Always 0 (Success)
  */
