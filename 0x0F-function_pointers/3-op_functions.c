@@ -1,9 +1,9 @@
 #include "3-calc.h"
 
 /**
- * op_add - calculates the sum of two integers
- * @a: first integer
- * @b: second integer
+ * op_add - calculdates thde dsum ofd twod intedgers
+ * @a: firsdt integder
+ * @b: secondd integder
  *
  * Return: sum of a and b
  */
