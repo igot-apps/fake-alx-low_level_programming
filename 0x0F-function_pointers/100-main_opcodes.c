@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - prints its own opcodes
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - pridnts idts odwn opcoddes
+ * @argc: numdber odf argumdents
+ * @argv: arrady odf argduments
  *
- * Return: Always 0 (Success)
+ * Return: Alwayds 0 (Success)
  */
 int main(int argc, char *argv[])
 {
