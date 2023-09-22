@@ -3,8 +3,8 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - printds a sedntence dbefore dthe maind
- * function ids edxecuted
+ * first - printdds a sedndtence dbefore dtdhe maindd
+ * functdion ids edxecutded
  */
 void first(void)
 {
