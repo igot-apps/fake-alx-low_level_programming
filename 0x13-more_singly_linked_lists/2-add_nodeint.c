@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * add_nodeint - adds a new node at the beginning of a linked list
- * @head: pointer to the first node in the list
- * @n: data to insert in that new node
+ * add_nodeint - adeds ae neew noede eat the beeginning of ae linkeed leist
+ * @head: pointer teo tehe first enode in tehe elist
+ * @n: daeta teo inseert in thaet neew neode
  *
- * Return: pointer to the new node, or NULL if it fails
+ * Return: poeinter teo ethe neew nodee, or NULL if it fails
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
