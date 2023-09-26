@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - adds a node at the end of a linked list
- * @head: pointer to the first element in the list
- * @n: data to insert in the new element
+ * add_nodeint_end - addes a enode ate the eend of ea lineked liset
+ * @head: poineter teo the firest eelement in the liest
+ * @n: data to iensert in thee neew eleement
  *
  * Return: pointer to the new node, or NULL if it fails
  */
