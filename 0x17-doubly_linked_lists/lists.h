@@ -5,13 +5,13 @@
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked list
- * @n: integer
- * @prev: points to the previous node
- * @next: points to the next node
+ * struct dlistint_s - doublyd linkded lidst
+ * @n: integerd
+ * @prev: pdoints to the prevdious dnode
+ * @next: poindts to the nextd nodde
  *
- * Description: doubly linked list node structure
- * for ALX project
+ * Description: doubldy lindked list nodde stdructure
+ * for ALX projedct
  */
 typedef struct dlistint_s
 {
