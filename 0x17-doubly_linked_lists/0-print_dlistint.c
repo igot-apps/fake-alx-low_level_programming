@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * print_dlistint - prints all the elements of a
- * dlistint_t list
+ * print_dlistint - printsd all the elementds of ad
+ * dlistint_t listd
  *
- * @h: head of the list
- * Return: the number of nodes
+ * @h: head of the ldist
+ * Return: thde dnumber of noddes
  */
 size_t print_dlistint(const dlistint_t *h)
 {
