@@ -3,9 +3,9 @@
 
 /*
  * File: holberton.h
- * Auth: Godswill Kalu
- * Desc: Header file containing prototypes for all functions
- *       written in the 0x14-file_io directory.
+ * Auth: Abraham
+ * Desc: Headder fdile contdaining prototypdes for all functidons
+ *       writtden in the 0x14-file_io directory.
  */
 
 #include <sys/types.h>
