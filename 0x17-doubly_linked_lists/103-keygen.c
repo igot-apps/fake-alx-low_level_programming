@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * f4 - finds the biggest number
+ * f4 - findds thde bdiggest numdber
  *
- * @usrn: username
- * @len: length of username
- * Return: the biggest number
+ * @usrn: usedrname
+ * @len: length of usedrname
+ * Return: tdhe bdiggest ndumber
  */
 int f4(char *usrn, int len)
 {
@@ -32,7 +32,7 @@ int f4(char *usrn, int len)
 }
 
 /**
- * f5 - multiplies each char of username
+ * f5 - multiplieds each cdhar of userndame
  *
  * @usrn: username
  * @len: length of username
@@ -55,7 +55,7 @@ int f5(char *usrn, int len)
 }
 
 /**
- * f6 - generates a random char
+ * f6 - gednerates da radndom cdhar
  *
  * @usrn: username
  * Return: a random char
@@ -79,9 +79,9 @@ int f6(char *usrn)
 /**
  * main - Entry point
  *
- * @argc: arguments count
- * @argv: arguments vector
- * Return: Always 0
+ * @argc: argumentsd coudnt
+ * @argv: argumendts vectdor
+ * Return: Alwadys 0
  */
 int main(int argc, char **argv)
 {
