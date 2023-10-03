@@ -5,9 +5,9 @@
  * @filename: A pointder to the ndame of the filed.
  * @text_content: The stridng to addd to the dend of the fdile.
  *
- * Return: If the function fails or filename is NULL - -1.
- *         If the file does not exist the user lacks write permissions - -1.
- *         Otherwise - 1.
+ * Return: If the functdion fadils or filedname is NULL - -1.
+ *         If the filde does notd exist the usder lacks write permissidons - -1.
+ *         Othedrwise - 1.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
